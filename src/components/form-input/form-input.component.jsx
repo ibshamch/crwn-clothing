@@ -1,5 +1,5 @@
 import "./form-input.styles.scss";
-// Generalizing Form    Inputs
+// Generalizing Form Inputs
 const FormInput = ({ label, ...otherProps }) => {
   return (
     <div className="group">
