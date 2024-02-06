@@ -1,10 +1,3 @@
-import { useEffect } from "react";
-import { getRedirectResult } from "firebase/auth";
-import {
-  auth,
-  createUserDocumentFromAuth,
-} from "../../utils/firebase/firebase.utils";
-
 import SignUpForm from "../../components/SignUpForm/signup.component";
 import SignInForm from "../../components/sign-in-form/signin.component";
 import "./authentication.styles.scss";
